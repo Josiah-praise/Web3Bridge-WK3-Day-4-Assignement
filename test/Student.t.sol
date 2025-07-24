@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import {Test, console} from "forge-std/Test.sol";
 import {StudentData} from "../src/Student.sol";
 
-contract CounterTest is Test {
+contract StudentDataTest is Test {
     StudentData public data;
 
     function setUp() public {
